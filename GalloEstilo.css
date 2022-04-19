@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalhoPrincipal{
+    padding: 20px 0;
+}
+
+img {
+    width: 300px;
+    text-align: left;
+}
+.botoes2{
+    padding: 10px;
+}
+
+h1{
+    color: rgb(143, 28, 28);
+    font-size: 35px;
+}
+
+h2{
+    color: rgb(143, 28, 28);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}   
+
+/*botões para outras paginas, muda a posição deles no html*/
+
+
+/*Link para navegação*/
+nav a{
+    text-transform: uppercase;
+    color: rgb(143, 28, 28);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(209, 186, 122);
+}
+
+.Title2{
+    text-align: center;
+    color: rgb(143, 28, 28);
+    font-weight: bold;
+    font-size: 30px;
+}
+h2{
+    color: rgb(143, 28, 28);
+    text-align: left;
+    font-size: 20px;
+}
+
+
+.categorias{
+    width: 940px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.categorias li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin-bottom: 15px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(143, 28, 28); 
+    border-radius: 10px;
+}
+.categorias li:hover{
+    border-color: rgb(209, 186, 122);
+}
+.categorias li:active{
+    border-color: rgb(209, 186, 122);
+}
+
+.categorias li:hover h5{
+    font-size: 50px;
+}
+
+.categorias h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.RodapePrincipal{
+    padding-top: 20px;
+}
+
+.mapa{
+    padding: 5em 0;
+    text-align: center; 
+}
+
+.TituloMapa{
+    display: block;
+    color: rgb(143, 28, 28);
+    font-size: 35px;
+    font-weight: bold;
+    margin: 5rem 0;
+}
+
+.especificacao{
+    color: rgb(143, 28, 28);
+    font-size: 15px;
+    padding-top: 05px;
+    
+}
+
+.ContatoGalloGym{
+    display: inline;
+    margin: 0;
+    color: rgb(143, 28, 28);
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    text-decoration: none;
+} 
+
+
+h3{
+    font-weight: bold;
+    color: rgb(143,28,28);
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+h4{
+    font-weight: bold;
+    color: rgb(143,28,28);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+footer p{
+    color: rgb(143, 28, 28);
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+ }
+ .RodapePrincipal{
+    margin: -6rem 0;
+}

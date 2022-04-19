@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8" long = "pt-br/">
+        <meta nome="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Cadastro.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+        <title>Cadastro Gallo</title>
+    </head>
+    <body>
+        <header class="cabecalhoPrincipal">
+            <div>
+                <section class="logoImg">
+                    <img id="LogoGym1" src="Logo Gallo's Gym.png" alt="Logo da Academia Gallo's Gym">
+                <nav class="container">
+                    <a href="index.GalloGym.html">Home</a>
+                    <a href="index.ModaFitness.html"> Moda Fitness</a>
+                    <a href="index.Luciana.html"> Alimentos e Suplementos</a>
+                </nav>
+                </section>
+            </div>
+        </header>
+        <main>
+            <h2 class="TitleMain">Cadastro Gallo's Gym</h2>
+            <div class="Formulario">
+            <form>
+                <label class="input-padrao" for="NomeCompleto">Nome Completo</label>
+                <input type="text" id="NomeCompleto" required> 
+
+                <label class="input-padrao" for="Telefone">Telefone</label>
+                <input type="tel" id="Telefone" required placeholder="(XX) XXXX-XXXX">
+
+                <div>
+                    <p>Selecionar a Modalidade desejada:</p>
+
+                    <label for="Musculacao" class="Modalidade">Musculação <input type="radio" value="Musculacao" id="Musculacao"></label>
+                
+
+                    <label for="Combo" class="Modalidade">Combo <input type="radio" value="Combo" id="Combo"></label>
+                    
+
+                    <label for="Atividade"class="Modalidade">Apenas uma Atividade (Sem Musculação)<input type="radio" value="Atividade" name="Contato" id="Atividade" required></label>
+                    
+                    <label for="AtividadeExtra"class="outraAtividade">Qual outra atividade?</label>
+                    <input type="text" id="AtividadeExtra">
+
+                </div>
+                    <fieldset>
+                        <legend class="pOptions">Qual horário você prefere treinar?</legend>
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </div>
+                    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber as nossas novidades por e-mail?</label>
+                <input type="submit" class="enviar">
+            </form>
+        </div>
+        </main>
+        <footer>
+            <div> 
+                    <h3> Em caso de dúvidas, entre em contato através dos canais:</h3>
+                <h4>
+                        <ul class="Contato">
+                        <li class="Contato"><p>Telefone: +55 11 94721-8177</p></li>
+                        <li class="Contato"><p><e-mail> gallosgym@gmail.com</p></e-mail></li>
+                        <li class="Contato"><p>Endereço: Av. Francisco Ranieri, 1011 - Lauzane Paulista. CEP: 02440-010</p></li>
+                        </ul>
+                </h4>
+                <h5> &copy; Copyright Gallo's Gym - 2022</h5>
+            </div>  
+        </footer>
+        </body>
+    </html>

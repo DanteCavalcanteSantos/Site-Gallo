@@ -1,0 +1,49 @@
+
+.cabecalhoPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botoes1{
+    display: flex;
+}
+
+.botoes2{
+    align-items: initial;
+}
+
+.Title2{
+    align-items: center;
+}
+
+
+.categorias{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.especificacao{
+    align-items: center;
+}
+
+
+.TituloMapa{
+    align-items: center;
+}
+
+.ContatoDiv .HorariosDiv{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    
+}
+
+.TitleContato, .Horarios{
+    display: flex;
+}
+.Contato, .Horario{
+    height: 20px;
+}
