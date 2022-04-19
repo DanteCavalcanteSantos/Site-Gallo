@@ -18,6 +18,10 @@ body{
     margin: auto;
     font-weight: bold;
 }
+.formularioGallo{
+    display: inline-block;
+    color:rgb(143, 28, 28); ;
+}
 
 .input-padrao{
     text-align: center;
