@@ -18,3 +18,11 @@ body{
     margin: auto;
     font-weight: bold;
 }
+
+.input-padrao{
+    text-align: center;
+    color: rgb(143, 28, 28);
+    font-size: 20px;
+    margin: auto;
+    padding: 30px;
+}
