@@ -1,3 +1,8 @@
+:root{
+    --vermelhosangue: rgb(143, 28, 28);
+    --creme:rgb(209, 186, 122);
+}
+
 body{
     background-color: black;
     font-family: 'Montagu Slab', serif;
@@ -12,46 +17,49 @@ img {
     width: 300px;
     text-align: left;
 }
+
+.botoes1{
+    margin-right: 60px;
+}
+
 .botoes2{
     padding: 10px;
 }
 
+/*Conteúdo Principal*/
+
 h1{
-    color: rgb(143, 28, 28);
+    color: var(--vermelhosangue);
     font-size: 35px;
 }
 
 h2{
-    color: rgb(143, 28, 28);
+    color: var(--vermelhosangue);
     text-align: center;
     font-size: 25px;
     font-weight: bold;
 }   
 
-/*botões para outras paginas, muda a posição deles no html*/
-
-
 /*Link para navegação*/
 nav a{
-    text-transform: uppercase;
-    color: rgb(143, 28, 28);
+    color: var(--vermelhosangue);
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
 }
 
-nav a:hover{
-    color: rgb(209, 186, 122);
+ nav a:hover{
+    color: var(--creme);
 }
 
 .Title2{
     text-align: center;
-    color: rgb(143, 28, 28);
+    color: var(--vermelhosangue);
     font-weight: bold;
     font-size: 30px;
 }
 h2{
-    color: rgb(143, 28, 28);
+    color: var(--vermelhosangue);
     text-align: left;
     font-size: 20px;
 }
@@ -71,14 +79,14 @@ h2{
     margin-bottom: 15px;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid rgb(143, 28, 28); 
+    border: 2px solid var(--vermelhosangue); 
     border-radius: 10px;
 }
 .categorias li:hover{
-    border-color: rgb(209, 186, 122);
+    border-color: var(--creme);
 }
 .categorias li:active{
-    border-color: rgb(209, 186, 122);
+    border-color: var(--creme);
 }
 
 .categorias li:hover h5{
@@ -91,9 +99,6 @@ h2{
     text-align: center;
 }
 
-.RodapePrincipal{
-    padding-top: 20px;
-}
 
 .mapa{
     padding: 5em 0;
@@ -102,23 +107,30 @@ h2{
 
 .TituloMapa{
     display: block;
-    color: rgb(143, 28, 28);
+    color: var(--vermelhosangue);
     font-size: 35px;
     font-weight: bold;
     margin: 5rem 0;
 }
 
 .especificacao{
-    color: rgb(143, 28, 28);
+    color: var(--vermelhosangue);
     font-size: 15px;
     padding-top: 05px;
     
 }
 
+/*Rodapé da Página*/
+
+.RodapePrincipal{
+    padding-top: 20px;
+}
+
+
 .ContatoGalloGym{
     display: inline;
     margin: 0;
-    color: rgb(143, 28, 28);
+    color: var(--vermelhosangue);
     font-size: 15px;
     font-weight: bold;
     line-height: 1;
@@ -127,20 +139,22 @@ h2{
 
 
 h3{
+    color: var(--vermelhosangue);
     font-weight: bold;
-    color: rgb(143,28,28);
     text-transform: uppercase;
     font-size: 15px;
-
+    margin-left: 10px;
 }
+
 h4{
+    color: var(--vermelhosangue);
     font-weight: bold;
-    color: rgb(143,28,28);
     text-transform: uppercase;
     font-size: 15px;
+    margin-left: 10px;
 }
 footer p{
-    color: rgb(143, 28, 28);
+    color: var(--vermelhosangue);
     font-size: 15px;
     margin: 5px;
     padding: 5px;

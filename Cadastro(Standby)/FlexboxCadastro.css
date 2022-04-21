@@ -1,12 +1,14 @@
+
 .cabecalhoPrincipal .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.botoes{
+.botoes1{
     display: flex;
 }
-.container{
-   justify-content: flex-end;
+
+.botoes2{
+    align-items: initial;
 }
