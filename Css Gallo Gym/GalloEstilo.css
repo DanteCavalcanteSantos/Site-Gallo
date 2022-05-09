@@ -1,0 +1,33 @@
+:root{
+    --vermelhosangue: rgb(143, 28, 28);
+    --creme:rgb(209, 186, 122);
+}
+/*Estilização de todo site*/
+.siteConteudo{
+    background-color: black;
+    display: grid;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+    grid-template-areas: "cabecalho__principal" "conteudo" "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 300px 100vh auto;
+}
+
+.cabecalho__principal{
+    grid-area: cabecalho__principal;
+}
+
+.conteudo{
+    grid-area: conteudo;
+}
+
+.rodape{
+    grid-area: rodape;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+
+:root{
+    --creme:#d4b87c;
+    --vermelhosangue: rgb(143, 28, 28);
+    --preto: #1d1c14;
+}
+/*Posicionamento*/
+.caixa{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.elementos__MF{
+    display: grid;
+    grid-gap: 0.2rem;
+    grid-template-columns: 50% 50%;
+    padding: 100px 250px;
+    position: relative;
+}
+
+.generos{
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 2px solid var(--creme);
+    border-radius: 10px;
+}
+
+/*Estilização*/
+
+.Titulo_1{
+    text-align:center;
+    font-weight:bold;
+    color:var(--creme);
+    font-size:35px;
+}
+
+.botoes__generos{
+    color: var(--creme);
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+nav a {
+    text-decoration: none;
+}
+.generos_nav{
+    color: var(--creme);
+    text-transform: uppercase;
+}
+.generos_nav :hover{
+    color: var(--vermelhosangue);
+}
+
+/* O hover não esta sendo aplicado no borda, verificar posteriormente
+.elementos__MF :hover{
+    color: var(--vermelhosangue);
+}
+*/
