@@ -59,3 +59,7 @@ footer p{
 .Contato, .Horario{
     height: 20px;
 }
+#imgFace, #imgInsta, #imgWhats{
+    padding: 20px 15px;
+    width: 60px;
+}
