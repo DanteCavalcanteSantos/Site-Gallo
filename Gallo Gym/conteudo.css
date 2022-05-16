@@ -1,0 +1,80 @@
+
+:root{
+    --vermelhosangue: rgb(143, 28, 28);
+    --creme:rgb(209, 186, 122);
+}
+
+/*Estilização conteudo principal*/
+.caixa{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.elementos__gallo{
+    display: grid;
+    grid-gap: 0.2rem;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    padding: 30px 80px;
+    position: relative;
+}
+.categorias_gallo_link{
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    padding: 30px 5px;
+    box-sizing: border-box;
+    border: 3px solid var(--vermelhosangue);
+    border-radius: 15px;
+}
+
+.categorias_gallo_link:last-child{
+    grid-column: 2 / 2;
+    grid-row: 4 / 4;
+}
+.titulo__principal__gallo{
+    color: var(--vermelhosangue);
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 60px 0px;
+    align-items: center;
+}
+
+.titlebotton{
+    color: var(--vermelhosangue);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold; 
+}   
+
+.especificacao{
+    align-items: center;
+    color: var(--vermelhosangue);
+    font-size: 15px;
+    padding-top: 05px;
+    
+}
+
+/*Navegação Conteudo principal*/
+
+nav a{
+    text-decoration: none;
+}
+
+.categorias__gallos :hover { 
+    color: var(--creme); 
+    border-color: var(--creme);
+}
+
+.categorias_gallo_link{
+  margin: 20px 30px;
+}
+.categorias_gallo_link:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
