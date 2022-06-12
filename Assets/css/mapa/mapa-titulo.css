@@ -1,0 +1,10 @@
+.mapa__titulo{
+    display: block;
+    text-align: center;
+    color: var(--vermelhosangue);
+    font-size: 35px;
+    font-weight: bold;
+    margin: 5rem 0;
+}
+
+

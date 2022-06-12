@@ -1,0 +1,31 @@
+:root{
+    --vermelhosangue: rgb(143, 28, 28);
+    --creme:rgb(209, 186, 122);
+}
+
+
+.cabecalho__principal--nav nav{
+    margin-right: 60px;
+}
+
+.botoes__Navegacao nav a{
+    color: var(--vermelhosangue);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.botoes__Navegacao a:hover{
+    color: var(--creme);
+}
+
+
+.cabecalho__principal--nav{
+    display: flex;
+}
+
+.cabecalhoprincipal--link{
+    align-items: initial;
+    padding: 10px;
+}

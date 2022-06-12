@@ -1,0 +1,7 @@
+.contato__titulo{
+    color: var(--vermelhosangue);
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

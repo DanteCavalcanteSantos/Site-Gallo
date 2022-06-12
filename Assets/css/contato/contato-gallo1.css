@@ -1,0 +1,5 @@
+.ContatoDiv .HorariosDiv{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+}

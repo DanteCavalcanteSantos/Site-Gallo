@@ -1,0 +1,11 @@
+.especificacao__botton--gallo{
+    align-items: center;
+    color: var(--vermelhosangue);
+    font-size: 15px;
+    padding-top: 05px;
+}
+
+.especificacao__botton--gallo:hover{
+    color: var(--creme); 
+    transition: 0.20s;
+}
