@@ -1,4 +1,7 @@
 .videoAcademia{
-    margin: 50px 50px;
-    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
+

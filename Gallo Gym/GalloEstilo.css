@@ -1,6 +1,11 @@
+@import url(./cabecalho.css);
+@import url(./conteudo.css);
+@import url(./rodape.css);
+
 .siteConteudo{
     background-color: black;
     display: grid;
+    font-family: 'Familjen Grotesk', sans-serif;
     font-family: 'Montagu Slab', serif;
     font-family: 'Montserrat', sans-serif;
     grid-template-areas: "cabecalho__principal" "conteudo" "rodape";
@@ -18,7 +23,7 @@
 
 .rodape{
     grid-area: rodape;
-    margin-top: 100%;
+    margin-top: 120%;
 }
 
 

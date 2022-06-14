@@ -1,0 +1,8 @@
+.midia__titulo{
+    color: var(--vermelhosangue);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: start;
+}
+

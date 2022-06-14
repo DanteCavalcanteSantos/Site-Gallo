@@ -1,6 +1,13 @@
+:root{
+    --vermelhosangue: rgb(143, 28, 28);
+    --creme:rgb(209, 186, 122);
+}
+
 .Horario__titulo{
+    color: var(--vermelhosangue);
     margin: 10px 10px;
     font-size: 15px;
     font-weight: bold;
+    font-style: normal;
     text-transform: uppercase;
 }

@@ -2,10 +2,17 @@
 
 @import url(../Assets/css/Logo/Logo.css);
 
+:root{
+    --vermelhosangue: rgb(143, 28, 28);
+    --creme:rgb(209, 186, 122);
+}
+
 .cabecalho .container{
     align-items: center;
     display: flex;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Montserrat', sans-serif;
     justify-content: space-between;
 }
 

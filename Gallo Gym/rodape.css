@@ -7,13 +7,23 @@
 @import url(../Assets/css/horario/horario-titulo.css);
 @import url(../Assets/css/horario/horario-div.css);
 @import url(../Assets/css/horario/horario-div2.css);
+@import url(../Assets/css/MidiasSociais/midia-titulo.css);
+
+
+:root{
+    --vermelhosangue: rgb(143, 28, 28);
+    --creme:rgb(209, 186, 122);
+}
 
 .rodape{
     margin-top: 5%; 
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
 }
 
-.TitleContato, .Horarios{
+.contato__titulo, .Horario__titulos{
     display: flex;
 }
 .Contato, .Horario{
