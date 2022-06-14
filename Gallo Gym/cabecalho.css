@@ -1,11 +1,11 @@
 @import url(../Assets/css/botoesNavegacao/botoesNavegacao.css);
 
 @import url(../Assets/css/Logo/Logo.css);
-/*Estilização Css*/
 
 .cabecalho .container{
-    display: flex;
     align-items: center;
+    display: flex;
+    font-family: 'Noto Sans KR', sans-serif;
     justify-content: space-between;
 }
 

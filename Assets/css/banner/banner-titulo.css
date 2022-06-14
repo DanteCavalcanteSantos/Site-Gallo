@@ -1,14 +1,17 @@
-
 :root{
     --vermelhosangue: rgb(143, 28, 28);
     --creme:rgb(209, 186, 122);
 }
 .banner__titulo{
-    align-items: center;
     color: var(--vermelhosangue);
-    margin: 60px 0px;
-    font-weight: bold;
-    font-size: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 5.0625rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 35%;
     text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 

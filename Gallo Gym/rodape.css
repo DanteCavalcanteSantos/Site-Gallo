@@ -5,14 +5,13 @@
 @import url(../Assets/css/contato/contato-titulo.css);
 @import url(../Assets/css/contato/contato-informacoes.css);
 @import url(../Assets/css/horario/horario-titulo.css);
+@import url(../Assets/css/horario/horario-div.css);
 @import url(../Assets/css/horario/horario-div2.css);
 
 .rodape{
-    margin-top: 70%; 
+    margin-top: 5%; 
+    font-family: 'Noto Sans KR', sans-serif;
 }
-
- /*Flexbox*/
- 
 
 .TitleContato, .Horarios{
     display: flex;

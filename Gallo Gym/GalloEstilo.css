@@ -18,6 +18,7 @@
 
 .rodape{
     grid-area: rodape;
+    margin-top: 100%;
 }
 
 

@@ -3,9 +3,11 @@
     --creme:rgb(209, 186, 122);
 }
 
-
+.botoes__Navegacao{
+    margin-right: 5%;
+}
 .cabecalho__principal--nav nav{
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 .botoes__Navegacao nav a{
