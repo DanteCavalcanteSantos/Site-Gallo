@@ -1,0 +1,12 @@
+.botoes__nav{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 20px;
+    color:var(--creme);
+    text-decoration:none;
+    padding: 5px 0px;
+}
+
+.botoes__nav{
+    display: flex;
+}

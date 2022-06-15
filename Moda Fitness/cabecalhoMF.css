@@ -1,3 +1,6 @@
+@import url(./Assets/Css/botoesModa/botoes-nav.css);
+@import url(./Assets/Css/botoesModa/botoes-link.css);
+
 :root{
     --creme:#d4b87c;
     --vermelhosangue: rgb(143, 28, 28);
@@ -10,35 +13,13 @@
     width: 250px;
     margin: 15px 15px;
 }
-    
-.botoes__Moda nav a{
-    text-transform: uppercase;
-    font-weight:bold;
-    font-size: 20px;
-    color:var(--creme);
-    text-decoration:none;
-    padding: 5px 0px;
-}
-
-.botoes_MF_link a:hover{
-    color: var(--vermelhosangue);
-}
-.botoes_MF_link{
-    margin-right: 60px;
-    padding: 5px;
-}
 
 /*Flexbox*/
 
-.cabecalho_MF .container{
+.cabecalhoMF {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.botoes_MF_nav{
-    display: flex;
-}
-.botoes_MF_link{
-    align-items: initial;
-    padding: 10px;
-}
+
+

@@ -1,0 +1,8 @@
+.nossosProdutos__titulo{
+    color:var(--creme);
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 5% 0%;
+    text-align: center;
+}

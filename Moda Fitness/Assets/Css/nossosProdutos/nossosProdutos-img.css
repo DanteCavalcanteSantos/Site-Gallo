@@ -1,0 +1,7 @@
+
+.nossosProdutos__img{
+    width: 30%;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+.botoes__link a:hover{
+    color: var(--vermelhosangue);
+}
+
+.botoes__link{
+    align-items: initial;
+    margin-right: 60px;
+    padding: 5px;
+    text-decoration: none;
+}

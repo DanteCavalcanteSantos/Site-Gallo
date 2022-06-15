@@ -1,3 +1,11 @@
+@import url(./Assets/Css/nossaLoja/nossaLoja.css);
+@import url(./Assets/Css/nossaLoja/nossaLoja-titulo.css);
+@import url(./Assets/Css/nossaLoja/nossaLoja-sub.css);
+@import url(./Assets/Css/nossaLoja/nossaLoja-img.css);
+@import url(./Assets/Css/nossosProdutos/nossosProdutos.css);
+@import url(./Assets/Css/nossosProdutos/nossosProdutos-titulo.css);
+@import url(./Assets/Css/nossosProdutos/nossosProdutos-sub.css);
+@import url(./Assets/Css/nossosProdutos/nossosProdutos-img.css);
 
 :root{
     --creme:#d4b87c;
