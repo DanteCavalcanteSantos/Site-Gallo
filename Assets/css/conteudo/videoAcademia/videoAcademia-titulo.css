@@ -1,0 +1,7 @@
+.videoAcademia__titulo{
+    display: block;
+    text-align: center;
+    color: var(--vermelhosangue);
+    font-size: 3.5rem;
+    margin: 5rem 0;
+}

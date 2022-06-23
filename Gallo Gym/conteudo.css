@@ -1,15 +1,15 @@
-@import url(../Assets/css/banner/banner.css);
-@import url(../Assets/css/banner/banner-titulo.css);
-@import url(../Assets/css/banner/banner-imagem.css);
-@import url(../Assets/css/elementos/elementos.css);
-@import url(../Assets/css/elementos/elementos-categorias.css);
-@import url(../Assets/css/elementos/elementos-especificacao.css);
-@import url(../Assets/css/elementos/elementos-title.css);
-@import url(../Assets/css/videoAcademia/videoAcademia.css);
-@import url(../Assets/css/videoAcademia/videoAcademia-video.css);
-@import url(../Assets/css/videoAcademia/videoAcademia-conteudo.css);
-@import url(../Assets/css/videoAcademia/videoAcademia-titulo.css);
-@import url(../Assets/css/videoAcademia/videoAcademia-subtitulo.css);
+@import url(../Assets/css/conteudo/banner/banner.css);
+@import url(../Assets/css/conteudo/banner/banner-titulo.css);
+@import url(../Assets/css/conteudo/banner/banner-imagem.css);
+@import url(../Assets/css/conteudo/elementos/elementos.css);
+@import url(../Assets/css/conteudo/elementos/elementos-categorias.css);
+@import url(../Assets/css/conteudo/elementos/elementos-especificacao.css);
+@import url(../Assets/css/conteudo/elementos/elementos-title.css);
+@import url(../Assets/css/conteudo/videoAcademia/videoAcademia.css);
+@import url(../Assets/css/conteudo/videoAcademia/videoAcademia-video.css);
+@import url(../Assets/css/conteudo/videoAcademia/videoAcademia-conteudo.css);
+@import url(../Assets/css/conteudo/videoAcademia/videoAcademia-titulo.css);
+@import url(../Assets/css/conteudo/videoAcademia/videoAcademia-subtitulo.css);
 
 :root{
     --vermelhosangue: rgb(143, 28, 28);
@@ -18,4 +18,5 @@
 
 .conteudo{
     font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 5%;
 }

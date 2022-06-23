@@ -1,13 +1,13 @@
-@import url(../Assets/css/mapa/mapa.css);
-@import url(../Assets/css/mapa/mapa-titulo.css);
-@import url(../Assets/css/contato/contato-gallo.css);
-@import url(../Assets/css/contato/contato-gallo1.css);
-@import url(../Assets/css/contato/contato-titulo.css);
-@import url(../Assets/css/contato/contato-informacoes.css);
-@import url(../Assets/css/horario/horario-titulo.css);
-@import url(../Assets/css/horario/horario-div.css);
-@import url(../Assets/css/horario/horario-div2.css);
-@import url(../Assets/css/MidiasSociais/midia-titulo.css);
+@import url(../Assets/css/rodape/mapa/mapa.css);
+@import url(../Assets/css/rodape/mapa/mapa-titulo.css);
+@import url(../Assets/css/rodape/contato/contato-gallo.css);
+@import url(../Assets/css/rodape/contato/contato-gallo1.css);
+@import url(../Assets/css/rodape/contato/contato-titulo.css);
+@import url(../Assets/css/rodape/contato/contato-informacoes.css);
+@import url(../Assets/css/rodape/horario/horario-titulo.css);
+@import url(../Assets/css/rodape/horario/horario-div.css);
+@import url(../Assets/css/rodape/horario/horario-div2.css);
+@import url(../Assets/css/rodape/MidiasSociais/midia-titulo.css);
 
 
 :root{
@@ -16,19 +16,25 @@
 }
 
 .rodape{
-    margin-top: 5%; 
     font-family: 'Familjen Grotesk', sans-serif;
     font-family: 'Montagu Slab', serif;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
+    margin-top: 105%;
 }
 
+
+.contatoGalloGym{
+    background-color: black;
+    width: 100vw;
+}
 .contato__titulo, .Horario__titulos{
     display: flex;
 }
 .Contato, .Horario{
     height: 20px;
 }
+
 #imgFace, #imgInsta, #imgWhats{
     padding: 20px 15px;
     width: 60px;

@@ -2,18 +2,22 @@
 @import url(./conteudo.css);
 @import url(./rodape.css);
 
+html, body{
+    margin: 0;
+}
+
 .siteConteudo{
-    background-color: black;
+    background-color: #1D232A;
     display: grid;
     font-family: 'Familjen Grotesk', sans-serif;
     font-family: 'Montagu Slab', serif;
     font-family: 'Montserrat', sans-serif;
     grid-template-areas: "cabecalho__principal" "conteudo" "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 300px 100vh auto;
+    grid-template-rows: 450px 100vh auto;
 }
 
-.cabecalho__principal{
+.cabecalho{
     grid-area: cabecalho__principal;
 }
 
@@ -23,7 +27,6 @@
 
 .rodape{
     grid-area: rodape;
-    margin-top: 120%;
 }
 
 
