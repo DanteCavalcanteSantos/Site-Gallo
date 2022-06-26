@@ -16,6 +16,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+    padding: 2rem 1.5rem;
 }
 
 .botoes__Navegacao a:hover{

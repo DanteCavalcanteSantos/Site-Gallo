@@ -1,6 +1,7 @@
 .videoAcademia__subtitulo{
-    align-self: flex-start;
     color: var(--vermelhosangue);
-    font-size: 30px;   
-    margin-left: 10px;
+    font-size: 20px;   
+    margin: 7.5rem 7.5rem;
+    grid-column: 1/1;
+    grid-row: 2/2;
 }

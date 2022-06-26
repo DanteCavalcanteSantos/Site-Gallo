@@ -1,5 +1,3 @@
-@import url(../Assets/css/rodape/mapa/mapa.css);
-@import url(../Assets/css/rodape/mapa/mapa-titulo.css);
 @import url(../Assets/css/rodape/contato/contato-gallo.css);
 @import url(../Assets/css/rodape/contato/contato-gallo1.css);
 @import url(../Assets/css/rodape/contato/contato-titulo.css);
@@ -20,7 +18,7 @@
     font-family: 'Montagu Slab', serif;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    margin-top: 105%;
+    margin-top: 120%;
 }
 
 

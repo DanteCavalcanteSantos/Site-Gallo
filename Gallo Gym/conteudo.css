@@ -10,6 +10,8 @@
 @import url(../Assets/css/conteudo/videoAcademia/videoAcademia-conteudo.css);
 @import url(../Assets/css/conteudo/videoAcademia/videoAcademia-titulo.css);
 @import url(../Assets/css/conteudo/videoAcademia/videoAcademia-subtitulo.css);
+@import url(../Assets/css/conteudo/mapa/mapa.css);
+@import url(../Assets/css/conteudo/mapa/mapa-titulo.css);
 
 :root{
     --vermelhosangue: rgb(143, 28, 28);
@@ -20,3 +22,4 @@
     font-family: 'Noto Sans KR', sans-serif;
     margin-top: 5%;
 }
+
