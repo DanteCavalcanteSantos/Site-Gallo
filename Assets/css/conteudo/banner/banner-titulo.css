@@ -6,11 +6,11 @@
     color: var(--vermelhosangue);
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 5rem;
+    font-weight: bold;
     position: absolute;
-    grid-column: span 2;
     left: 50%;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
-    top: 40%;
+    top: 50%;
     text-align: center;
     transform: translate(-50%, -60%);
     width: 100%;
