@@ -1,7 +1,3 @@
-:root{
-    --vermelhosangue: rgb(143, 28, 28);
-    --creme:rgb(209, 186, 122);
-}
 
 .botoes__Navegacao{
     margin-right: 5%;
@@ -11,7 +7,7 @@
 }
 
 .botoes__Navegacao nav a{
-    color: var(--vermelhosangue);
+    color: var(--branco);
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
@@ -20,7 +16,7 @@
 }
 
 .botoes__Navegacao a:hover{
-    color: var(--creme);
+    color: var(--vermelhosangue);
 }
 
 
@@ -31,4 +27,21 @@
 .cabecalhoprincipal--link{
     align-items: initial;
     padding: 10px;
+}
+
+
+@media screen and (min-width: 640px) {
+    .botoes__Navegacao{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 962px) {
+    .botoes__Navegacao{
+        flex-direction: column;
+        text-align: center;
+    }
+    
 }

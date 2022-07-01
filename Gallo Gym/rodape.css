@@ -19,11 +19,11 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     margin-top: 120%;
+    position: static;
 }
 
 
 .contatoGalloGym{
-    background-color: black;
     width: 100vw;
 }
 .contato__titulo, .Horario__titulos{

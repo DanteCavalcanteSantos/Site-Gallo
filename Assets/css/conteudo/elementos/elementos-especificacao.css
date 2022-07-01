@@ -1,12 +1,12 @@
-.especificacao__botton--gallo{
+.especificacao__botton{
     align-items: center;
-    color: var(--vermelhosangue);
+    color: var(--cinza);
     font-size: 20px;
     padding-top: 05px;
     /*overflow: hidden; Inserir no media querie Esconde a informação*/
 }
 
-.especificacao__botton--gallo:hover{
-    color: var(--creme); 
+.especificacao__botton:hover{
+    color: var(--vermelhosangue); 
     transition: 0.20s;
 }

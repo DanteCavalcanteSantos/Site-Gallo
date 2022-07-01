@@ -1,4 +1,4 @@
 .videoAcademia__video{
-   justify-self: flex-start;
-   margin: auto;
+  justify-content: flex-start;
+  margin: 0.5rem 10rem;
 }

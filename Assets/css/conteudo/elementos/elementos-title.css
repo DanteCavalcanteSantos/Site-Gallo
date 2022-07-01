@@ -1,11 +1,11 @@
-.title__botton--gallo{
-    color: var(--vermelhosangue);
+.title__botton{
+    color: var(--cinza);
     font-size: 30px;
     font-weight: bold; 
     text-align: center;
 }   
 
-.title__botton--gallo:hover{
-    color: var(--creme); 
+.title__botton:hover{
+    color: var(--vermelhosangue); 
     transition: 0.20s;
 }

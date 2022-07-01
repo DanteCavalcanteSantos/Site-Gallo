@@ -1,7 +1,7 @@
 .videoAcademia__titulo{
+    grid-column: 1 / span 2;
     text-align: center;
-    color: var(--vermelhosangue);
+    color: var(--cinza);
     font-size: 3.5rem;
     margin: 60px 0;
-    grid-column: span 2;
 }

@@ -2,12 +2,20 @@
 @import url(./conteudo.css);
 @import url(./rodape.css);
 
+:root{
+    --vermelhosangue: rgb(143, 28, 28);
+    --creme:rgb(209, 186, 122);
+    --branco: rgb(255, 255, 255);
+    --cinza: rgb(197, 197, 197);
+}
+
+
 html, body{
     margin: 0;
 }
 
 .siteConteudo{
-    background-color: #191919;
+    background-image: linear-gradient(black, #3d3d3d, #918f8f);
     display: grid;
     font-family: 'Familjen Grotesk', sans-serif;
     font-family: 'Montagu Slab', serif;

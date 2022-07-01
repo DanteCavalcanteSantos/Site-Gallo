@@ -4,7 +4,7 @@
 }
 .mapa__titulo{
     text-align: center;
-    color: var(--vermelhosangue);
+    color: var(--cinza);
     font-size: 35px;
     font-weight: bold;
     margin: 5rem 0;

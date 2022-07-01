@@ -1,7 +1,10 @@
+.container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
 .videoAcademia{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 40px;
+    align-items: center;
+    width: 95%;
 }
 

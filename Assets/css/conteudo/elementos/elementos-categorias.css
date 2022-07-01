@@ -1,29 +1,25 @@
 .categorias__gallo{
-    border: 3px solid var(--vermelhosangue);
+    border: 3px solid var(--cinza);
     border-radius: 15px;
     box-sizing: border-box;
     display: inline-block;
+    margin: 20px 30px;
     padding: 5% 0;
     text-align: center;
     width: 75%;
 }
 
 .categorias__gallo:last-child{
+    display: flex;
+    flex-direction: column;
     grid-column: 2 / 2;
     grid-row: 4 / 4;
+    justify-content: center;
 }
 
 .categorias__gallo:hover { 
-    border-color: var(--creme);
-    color: var(--creme); 
+    border-color: var(--vermelhosangue);
+    color: var(--vermelhosangue); 
     transition: 0.20s;
 }
 
-.categorias__gallo{
-  margin: 20px 30px;
-}
-.categorias_gallo:last-child{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
