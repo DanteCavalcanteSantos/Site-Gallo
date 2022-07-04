@@ -29,19 +29,13 @@
     padding: 10px;
 }
 
-
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 428px) {
     .botoes__Navegacao{
         flex-direction: column;
         text-align: center;
+        margin: 15px 0px;
     }
-    
+
 }
 
-@media screen and (min-width: 962px) {
-    .botoes__Navegacao{
-        flex-direction: column;
-        text-align: center;
-    }
-    
-}
+ 

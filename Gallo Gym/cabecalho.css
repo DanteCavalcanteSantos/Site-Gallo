@@ -9,16 +9,17 @@
 .cabecalho{
     align-items: center;
     display: flex;
-    margin-bottom: -2.5rem;
+    margin: 1rem 2rem;
     font-family: 'Familjen Grotesk', sans-serif;
     font-family: 'Montagu Slab', serif;
     font-family: 'Montserrat', sans-serif;
     justify-content: space-between;
+    padding: 2.5rem 2.5rem;
 }
 
 
-
-@media screen and (min-width: 640px) {
+/* 
+@media screen and (min-width: 428px) {
     .cabecalho{
         display: flex;
         flex-direction: column;
@@ -27,7 +28,7 @@
     
 }
 
-@media screen and (min-width: 962px) {
+@media screen and (min-width: 1024px) {
     .cabecalho{
         display: flex;
         flex-direction: column;
@@ -36,11 +37,11 @@
     
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1728px){
     .cabecalho{
         display: flex;
         flex-direction: row;
     }
 
     
-}
+}  */

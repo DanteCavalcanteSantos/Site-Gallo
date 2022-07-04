@@ -6,3 +6,10 @@
    grid-column: span 2;
 }
 
+@media screen and (min-width: 428px) {
+   .banner__imagem{
+       overflow: hidden;
+   }
+   
+}
+
